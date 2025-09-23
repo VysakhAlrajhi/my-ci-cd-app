@@ -31,3 +31,7 @@ jobs:
 
       - name: Build React App
         run: npm run build
+
+      - name: Trigger Vercel Deploy
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_UQVlVJRQoAx7vTza3NZ8ZVsUT0hC/Ax8hcXBTIi
+
