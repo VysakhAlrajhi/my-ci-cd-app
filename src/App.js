@@ -12,6 +12,12 @@ function App() {
         <p>
           Start building amazing things with React.
         </p>
+        <p>
+          Build, test, and deploy with confidence.
+        </p>
+        <p>
+          Happy coding!
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
